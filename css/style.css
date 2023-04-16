@@ -5,7 +5,7 @@
     font-family: 'Nunito Sans', sans-serif;;
 }
 p{
-    padding: 20px 0;
+    font-size: 20px;
 }
 /* HEADER STYLES */
 header{
@@ -14,7 +14,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .h-row{
@@ -133,8 +132,8 @@ h1{
 }
 
 .row{
-    width: calc(100% - 200px);
-    margin: 50px 100px;
+    width: calc(100% - 300px);
+    margin: 100px 150px;
     display:flex;  
     flex-direction: row;
     justify-content: center;
@@ -147,15 +146,12 @@ h1{
 
 .col-40{
     width: 40%;
-    padding: 100px;
 }
 
 .col-40-2{
     width: 40%;
-    padding: 100px;
     font-size: 20px;
 }
-
 
 h2{
     color: rgba(35,39,42,255);
@@ -169,9 +165,7 @@ h2{
 /* END SECOND AND FOURTH LAYOUT */
 /* THIRD LAYOUT */
 .third-container{
-    background-image: url(../img/wave.svg);
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-color: rgba(246,246,246,255);
     width: 100%;
 }
 
@@ -186,16 +180,10 @@ h2{
 
 .third-row .first-col{
     width: 40%;
-    height: 450px;
-    background-color:rgba(255,192,203,255);
-    border: 1px dashed black;
 }
 
 .third-row .second-col{
     width: 60%;
-    height: 450px;
-    background-color: rgba(30,144,255,255);
-    border: 1px dashed black;
 }
 /* END THIRD LAYOUT */
 /* FIFTH LAYOUT */
@@ -234,9 +222,10 @@ h2{
 }
 
 .big-col-button{
+    background-color: rgba(142,161,225,255);
+    color: white;
     border-radius: 35px;
     font-size: 15px;
-    background-color:white ;
     border: none;
     padding: 13px 30px;
 }
@@ -250,40 +239,63 @@ h2{
 .sixth-container{
     background-color: rgba(35,39,42,255);
     width: 100%;
-    height:560px;
-    display:flex;  
-    flex-direction: row;
-    justify-content: center;
-    align-content:center;
 }
 
 .sixth-row{
-    width: calc(100% - 600px);
-    margin: 0 300px;
+    width: calc(100% - 300px);
+    margin: 0 150px;
     display:flex;  
     flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items:flex-start;
 }
 
 .col-1{
-    background-color: rgba(240,128,128,255);
-    width: 30.3%;
-    height: 500px;
-    border: 1px dashed black;
+    width: 45%;
+    padding: 30px;
 }
 
 .container-col{
-    background-color: rgba(32,178,170,255);
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .sub-col{
     width: calc(100% / 4);
-    height: 500px;
-    border: 1px dashed white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.h-foot{
+    font-size: 30px;
+    color: rgba(114,137,220,255);
+    padding: 20px 0;
+}
+
+strong{
+    padding-top: 70px;
+    padding-left: 5px;
+}
+
+span{
+    color: rgba(113,136,217,255);
+}
+
+.sub-col p{
+    padding: 5px;
+    color: white;
+}
+
+.logo-ita{
+    width: 20px;
+}
+
+.menu{
+    color: white;
 }
 /* END SIXTH LAYOUT */
 /* END MAIN STYLES */
@@ -291,28 +303,30 @@ h2{
 footer{
     background-color: rgba(35,39,42,255);
     width: 100%;
-    height: 80px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .f-row{
-    background-color: rgba(127,255,212,255);
     width: 60%;
-    height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 }
 
-.p-foot{
-    background-color: rgba(255,182,193,255);
-    width:5%;
-    height: 22px;
-    text-align: center;
-    font-size: 11px;
-    border: 1px dashed black;
+.f-button{
+    background-color:  rgba(142,161,225,255);
+    color: white;
+    border-radius: 35px;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
 }
+
+
+
+
+
 /* END FOOTER STYLES */
